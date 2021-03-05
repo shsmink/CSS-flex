@@ -1,0 +1,169 @@
+body { 
+    color: #1d334a;
+    font-family: Verdana;
+    font-size: small;
+    background-color: #d4e7fa;
+}
+.white-background {
+    background-color: #e5ded40e; 
+}
+.header-border {
+    border: 2px double #194470;
+    border-radius: 30px;
+    color: #ffffff;
+    padding: 10px;
+}
+h1 {
+    font-size: 40px;
+}
+#header {
+    background-color: #4f8bc9;
+    text-align: center;
+}
+.winc-link {
+    color: #1d334a; 
+}
+nav {
+    border: 1px solid #4f8bc9;
+    padding: 15px 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+.menu li{
+    display: inline;
+    padding: 0 15px;
+    line-height: 60px;
+    font-size: 35px;
+}
+article {
+    border: 1px solid #194470;
+    padding: 10px 25px;
+    margin-bottom: 15px;
+}
+.quote {
+	border-left: 2px solid;
+	padding-left: 40px;
+    font-style: italic;
+    width: 75%;
+    float: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+.intro {
+    margin: 0 auto;
+    width: 80%;
+    color: #100f14;
+    font-size: x-large;
+    margin-bottom: 0px;
+}
+.image { 
+    padding-right: 20px;
+    width: 100%;
+    height: auto;
+}
+.name {
+    color: #100f14;
+    text-align: center;  
+    font-size: 50px;
+}
+.link-naar-motivatie {
+    font-size: 11px;
+    color: #c07e6d;
+}
+a {
+    color: #4f8bc9;
+    font-weight: bold;
+}
+.kleur-motivatielink {
+    color: #6a4d45;
+}
+.kleur-motivatielink:hover {
+    color: #100f14;
+}
+a:hover {
+    color: #4f8bc9;
+} 
+input, textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+footer{
+    margin: 30px;
+    text-align: center;
+}
+.blogpost { 
+    width: 325px; 
+    border: 1px solid rgb(218, 218, 218);
+    padding: 15px; 
+    margin-bottom: 15px;
+    flex-grow: 0;
+}
+.blogpost1 {
+    width: 325px; 
+    border: 1px solid rgb(218, 218, 218);
+    padding: 15px; 
+    margin-bottom: 15px;
+    flex-grow: 1;
+}
+.blogpost2 {
+    width: 325px; 
+    border: 1px solid rgb(218, 218, 218);
+    padding: 15px; 
+    margin-bottom: 15px;
+    flex-grow: 0;
+    align-self: flex-start;
+}
+.blog {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (min-width: 1024px) {
+    body { 
+        background-color: #ffffff;
+    }
+    h1 { 
+        font-size: 30px;
+    }
+    .header-border {
+        padding: 20px;
+    }
+    nav {
+        margin: 0 20%;
+    }
+    .menu li {
+        display: inline;
+        font-size: 20px;
+    }
+    .quote {
+        margin: 30px;
+        font-size: 18px;
+    }
+    article {
+        padding: 10px 25px;
+        margin-bottom: 30px;
+        color: #4f8bc9;
+    }
+    main {
+        margin: 0 20%;
+        border: none;
+    }
+    .image { 
+        float: left;
+        width: 50%;
+        height: auto;
+    }
+    .intro {
+        font-size: medium;
+        margin-bottom: 125px;
+        color: #6a4d45;
+        line-height: 28px;
+    }
+    .white-background {
+        background-color: #e6dfd7;
+        ; 
+    }
+}
